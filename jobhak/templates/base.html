@@ -1,0 +1,59 @@
+{% load socialaccount %}
+{% providers_media_js %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>잡학다식</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/blog/">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/51369bc7c3.js"></script>
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="body">
+    <div class= "head-contents">
+        <!-- nav -->
+
+        <!-- user info & menu -->
+      
+        <!-- search -->
+      <span class="search-input">
+        <input type="text" class="search" value="검색">
+        <i class="fa fa-search" aria-hidden="true"></i>
+              </span>
+
+        <!-- content  -->
+      <span class="content-detail">
+        <br>
+        <span class="content-detail-text">
+        <!-- <h3>우선은 만들었는데 어떻게 합쳐야할까</h3>
+        <p>저도 모르겟는데요^^...마진이랑 테두리는 왜 안먹는걸까<br>
+        아니 맨위에 '<'는 뭐야? </p> -->
+        {% block contents %}
+        {% endblock %}
+        </span>
+
+
+    </div>
+
+
+
+    <!-- footer -->
+  </div>
+</body>
+</html>

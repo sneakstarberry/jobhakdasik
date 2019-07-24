@@ -1,0 +1,48 @@
+.body {
+    background-image: url('background.png');
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+}
+
+/* head contents */
+
+.head-contents {
+    text-align: center;
+    height: 30%;
+    width: 100%;
+    background: linear-gradient( to bottom, #a98ec5, #6691e4);
+    border-radius: 0 0 20px 20px;
+}
+
+.search-input {
+    background-color: white;
+    border-radius: 9px;
+    border: #6691e4;
+    height: 40px;
+    width: 640px;
+    margin:100px 0 20px -130px;
+    position: absolute;
+}
+
+.search {
+    margin-top: 5px;
+    width: 600px;
+    height: 30px;
+    border: 0px;
+}
+
+.content-detail {
+    background-color: white;
+    width: 640px;
+    height: auto;
+    border-radius: 10px;
+    border: #6691e4 1px;
+    position: absolute;
+    margin:160px 0 20px -130px;
+}
+
+.content-detail-text {
+    margin: 10px;
+}
