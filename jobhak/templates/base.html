@@ -11,7 +11,7 @@
     <title>잡학다식</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/base-style.css' %}">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/blog/">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/51369bc7c3.js"></script>
@@ -32,21 +32,18 @@
         <!-- user info & menu -->
       
         <!-- search -->
-      <span class="search-input">
+      <div class="search-input">
         <input type="text" class="search" value="검색">
         <i class="fa fa-search" aria-hidden="true"></i>
-              </span>
+              </div>
 
         <!-- content  -->
-      <span class="content-detail">
+      <div class="content-detail">
         <br>
-        <span class="content-detail-text">
-        <!-- <h3>우선은 만들었는데 어떻게 합쳐야할까</h3>
-        <p>저도 모르겟는데요^^...마진이랑 테두리는 왜 안먹는걸까<br>
-        아니 맨위에 '<'는 뭐야? </p> -->
+        <div class="content-detail-text">
         {% block contents %}
         {% endblock %}
-        </span>
+        </div>
 
 
     </div>

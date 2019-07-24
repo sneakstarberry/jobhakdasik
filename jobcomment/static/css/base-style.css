@@ -1,4 +1,11 @@
+html,body{
+    width: 100%;
+    min-height: 100%;
+}
+
 .body {
+    width: 100%;
+    min-height: 100%;
     background-image: url('background.png');
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
@@ -10,7 +17,7 @@
 
 .head-contents {
     text-align: center;
-    height: 30%;
+    height: 300px;
     width: 100%;
     background: linear-gradient( to bottom, #a98ec5, #6691e4);
     border-radius: 0 0 20px 20px;
@@ -22,8 +29,8 @@
     border: #6691e4;
     height: 40px;
     width: 640px;
-    margin:100px 0 20px -130px;
-    position: absolute;
+    margin:100px 0 20px 500px;
+    display: inline-block;
 }
 
 .search {
@@ -39,8 +46,8 @@
     height: auto;
     border-radius: 10px;
     border: #6691e4 1px;
-    position: absolute;
-    margin:160px 0 20px -130px;
+    margin:0 0 20px 500px;
+    display: inline-block;
 }
 
 .content-detail-text {
